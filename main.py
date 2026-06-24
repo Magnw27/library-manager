@@ -16,7 +16,7 @@ def load_books():
   """Memuat data buku dari file library.json.
      kalau file belum ada, otomatis bikin list kosong."""
   if os.path.exists(DATA_FILE):
-    with open(DATA_FILE), "r") as file:
+    with open(DATA_FILE, "r") as file:
       return json.load(file)
   return []
 
