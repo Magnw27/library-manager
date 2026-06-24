@@ -1,0 +1,1 @@
+# Project ini hanya menggunakan library bawaan Python (os dan json)
