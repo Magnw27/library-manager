@@ -22,7 +22,7 @@ def load_books():
 
 def save_books(books):
   """Menyimpan data buku ke file library.json dengan format rapi."""
-  with open(DATA_FILE), "w") as file:
+  with open(DATA_FILE, "w") as file:
     json.dump(books, file, indent=4)
 
 # Fitur aplikasinya ini anjg
